@@ -1,4 +1,3 @@
-
 # go-eventsource
 
 _go-eventsource_ provides server-sent events for net/http server.
@@ -32,4 +31,3 @@ func main() {
 }
 ```
 
-Change at the bottom
