@@ -1,6 +1,5 @@
 language: go
-go:
-  - 1.0
+install: echo Hi
 before_script: echo Before
 after_script:  echo After
-script: go --version 
+script: echo done
