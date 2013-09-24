@@ -1,4 +1,6 @@
 language: go
 go:
   - 1.0
+before_script: echo Before
+after_script:  echo After
 script: go --version 
