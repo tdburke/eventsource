@@ -1,4 +1,3 @@
-Also changed
 
 # go-eventsource
 
