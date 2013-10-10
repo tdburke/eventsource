@@ -1,4 +1,3 @@
-
 # go-eventsource
 
 _go-eventsource_ provides server-sent events for net/http server.
@@ -31,3 +30,4 @@ func main() {
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
+
