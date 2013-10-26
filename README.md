@@ -1,5 +1,3 @@
-tdb changed 3
-
 # go-eventsource
 
 _go-eventsource_ provides server-sent events for net/http server.
