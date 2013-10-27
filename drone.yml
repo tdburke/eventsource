@@ -1,0 +1,26 @@
+jobs:
+  - job:
+    name: Go 1.1
+    image: drone/go1.1
+    build:
+      - go build
+      - go test -v
+  - job:
+    name: Go 1.2
+    image: drone/go1.1
+    build:
+      - go build
+      - go test -v
+notifications:
+  email:
+    enabled: true
+    recipients:
+      - brad@drone.io
+      - burke@drone.io
+  http:
+    enabled: true
+    urls:
+      - http://example.com/drone_endpoint
+  hipchat:
+    enabled: true
+    room: Testjob Build Notifications
