@@ -1,3 +1,5 @@
+Edited Readme
+
 # go-eventsource
 
 _go-eventsource_ provides server-sent events for net/http server.
