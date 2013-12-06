@@ -1,4 +1,3 @@
-# This is a comment
 jobs:
   - job:
     name: Go 1.1
