@@ -25,4 +25,5 @@ notifications:
   hipchat:
     enabled: false
     room: Testjob Build Notifications
+# Added comment at bottom
 
