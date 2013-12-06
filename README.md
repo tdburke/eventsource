@@ -1,4 +1,4 @@
-Edited Readme
+Local edit by Ron.
 
 # go-eventsource
 
