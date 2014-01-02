@@ -2,13 +2,13 @@
 jobs:
   - job:
     name: Go 1.1
-    image: bradrydzewski/drone
+    image: go1.1
     build:
       - ls -la
       - sleep 5
   - job:
     name: Go 1.2
-    image: bradrydzewski/drone
+    image: go1.1
     build:
       - ls -la
       - sleep 5
