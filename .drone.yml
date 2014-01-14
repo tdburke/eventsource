@@ -1,23 +1,11 @@
-# Top comment from Ron
-jobs:
-  - job:
-    name: Go 1.1
-    image: go1.1
-    build:
-      - ls -la
-      - sleep 5
-  - job:
-    name: Go 1.2
-    image: go1.1
-    build:
-      - ls -la
-      - sleep 5
-notifications:
-  email:
-    enabled: true
-    recipients:
-      - cavepig@drone.io
-    on_success: true
-    on_failure: true
+image: go1.2
+script:
+  - go version
+  - go get
+  - go build
 
+notify:
+  email:
+    recipients:
+      - burke@drone.io
 
