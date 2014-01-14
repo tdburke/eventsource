@@ -19,12 +19,5 @@ notifications:
       - cavepig@drone.io
     on_success: true
     on_failure: true
-  http:
-    enabled: true
-    urls:
-      - http://example.com/drone_endpoint
-  hipchat:
-    enabled: false
-    room: Testjob Build Notifications
 
 
