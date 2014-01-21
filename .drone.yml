@@ -1,5 +1,4 @@
-<html>1</html>
-image: go1.2
+image: go1.1
 script:
   - go version
   - go get
