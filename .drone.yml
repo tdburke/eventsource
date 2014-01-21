@@ -1,2 +1,6 @@
 <html>1</html>
-image: go1.1
+image: go1.2
+script:
+  - go version
+  - go get
+  - go build
